@@ -2,6 +2,8 @@
 An arduino powered smart cushion that sounds an alarm after 30 minutes of sitting. The alarm will keep rining until you stand up. You must wait a full minute before you sit back down or else the alarm will continue to go off again.
 ![Chair](Chair.jpg)
 
+[YouTube Video](https://www.youtube.com/watch?v=lPFiY0v1rcI)
+
 ## Why
 Because sitting for long periods of time without any breaks is not good for your overall health
 
