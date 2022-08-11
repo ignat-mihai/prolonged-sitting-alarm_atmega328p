@@ -76,7 +76,8 @@ void resetWatchdog()
     sei();
 } // end of resetWatchdog
 
-
+// Credit Nick Gammon for this
+//https://www.gammon.com.au/forum/?id=12769
 void wdt_sleep(){
     resetWatchdog();
     // Save previous ADC Register value
@@ -136,6 +137,10 @@ int is_sitting()
 }
 
 void buzz_alarm(uint8_t number_of_buzzes)
+/**
+ * @brief Buzz alarm
+ * 
+ */
 {
 
     uint8_t toggle = 1;
